@@ -21,3 +21,8 @@ Route::get('/hello', function () {
     //return view('welcome');
     echo "hello";
 });
+
+Route::get('/new', function () {
+    //return view('welcome');
+    echo "new";
+});
